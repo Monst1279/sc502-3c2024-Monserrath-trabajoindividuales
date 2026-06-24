@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Doctor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Perfil del Doctor</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="doctor-profile">
+
+        <h1 class="doctor-name">Dr. Carlos Rodríguez</h1>
+
+        <h3 class="specialty">Medicina General</h3>
+
+        <p id="description">
+            Médico con más de 15 años de experiencia en atención de pacientes,
+            graduado de la Universidad de Costa Rica y especializado en medicina familiar.
+        </p>
+
+        <button>Agendar Cita</button>
+
+    </section>
+
+    <section class="comments">
+
+        <h2>Comentarios de Pacientes</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>María López</h3>
+                <p>Excelente atención y muy profesional.</p>
+                <span>15/03/2026</span>
+            </div>
+
+            <div class="card">
+                <h3>Juan Pérez</h3>
+                <p>Me explicó todo con claridad.</p>
+                <span>18/03/2026</span>
+            </div>
+
+            <div class="card">
+                <h3>Ana Fernández</h3>
+                <p>Muy amable y atento durante la consulta.</p>
+                <span>20/03/2026</span>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
